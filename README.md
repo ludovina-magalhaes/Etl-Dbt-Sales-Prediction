@@ -43,6 +43,3 @@ Se trata de un problema de regresión supervisada, donde se predice un valor con
 
 
 
-📧 Contacto
-¿Preguntas o sugerencias?
-Puedes contactar conmigo a través de [tu e-mail o LinkedIn].
