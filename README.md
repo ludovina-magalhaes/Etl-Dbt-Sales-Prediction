@@ -41,5 +41,6 @@ Se trata de un problema de regresión supervisada, donde se predice un valor con
 - Detección de productos más rentables por tienda.
 
 
-
+Licencia   
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
