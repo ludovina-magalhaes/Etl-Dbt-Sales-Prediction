@@ -3,7 +3,8 @@ Este repositorio documenta el flujo de trabajo completo de un proyecto de análi
 
 ### Flujo del Proyecto
 **1. Recolección de Datos**
-   Punto de partida del proyecto, donde se recopilan los datos desde fuentes externas,
+   Punto de partida del proyecto, donde se recopilan los datos desde fuentes externas.
+   
    📎 Dataset: Big Mart Sales Dataset en Kaggle
 
 **2.  Preprocesamiento de Datos**
