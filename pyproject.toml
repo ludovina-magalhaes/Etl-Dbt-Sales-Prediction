@@ -8,6 +8,9 @@ authors = [
 readme = "README.md"
 requires-python = "3.12.6"
 dependencies = [
+    "dbt (>=1.0.0.40.3,<2.0.0.0.0)",
+    "dbt-core (>=1.9.4,<2.0.0)",
+    "dbt-snowflake (>=1.9.4,<2.0.0)"
 ]
 
 
