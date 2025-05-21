@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: etl_dbt_raw
+    database: SALES
+    schema: ETL_DBT_RAW
+    tables:
+      - name: TRAIN_RAW

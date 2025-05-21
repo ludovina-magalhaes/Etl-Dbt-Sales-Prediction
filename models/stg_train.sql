@@ -1,6 +1,7 @@
 with source as (
-    select * from {{ source('etl_dbt_raw', 'raw_train') }}
+    select * from {{ source('etl_dbt_raw', 'TRAIN_RAW') }}
 ),
+
 
 renamed as (
     select
@@ -11,7 +12,7 @@ renamed as (
         Item_Type as item_type,
         Item_MRP as item_mrp,
         Outlet_Identifier as outlet_id,
-        cast(Outlet_Establishment_Year as int64) as establishment_year,
+        cast(Outlet_Establishment_Year as number) as establishment_year,
         Outlet_Size as outlet_size,
         Outlet_Location_Type as location_type,
         Outlet_Type as outlet_type,
