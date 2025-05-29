@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: mart_dataset_modelagem
+    description: "Conjunto de dados final com features para modelo de previsão de vendas"
+
+  - name: performance_lojas
+    description: "Resumo de performance das lojas BigMart"
+
+  - name: vendas_tipo_item
+    description: "Vendas agregadas por tipo de produto"

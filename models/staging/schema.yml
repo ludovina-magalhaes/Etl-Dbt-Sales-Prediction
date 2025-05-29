@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: stg_items
+    description: "Staging dos dados dos produtos"
+    columns:
+      - name: item_identifier
+        tests: [not_null, unique]
+      - name: item_weight
+        tests: [not_null]
+      - name: item_fat_content
+        tests:
+          - accepted_values:
+              values: ['Low Fat', 'Regular', 'Non-Edible', 'Unknown']
+      - name: item_visibility
+      - name: item_type
+      - name: item_mrp
+
+  - name: stg_outlets
+    description: "Staging dos dados dos pontos de venda"
+    columns:
+      - name: outlet_identifier
+        tests: [not_null, unique]
+      - name: outlet_establishment_year
+        tests: [not_null]
+      - name: outlet_size
+        tests:
+          - accepted_values:
+              values: ['Small', 'Medium', 'High', '']
+      - name: outlet_location_type
+        tests:
+          - accepted_values:
+              values: ['Tier 1', 'Tier 2', 'Tier 3']
+      - name: outlet_type
+        tests:
+          - accepted_values:
+              values: ['Supermarket Type1', 'Supermarket Type2', 'Supermarket Type3', 'Grocery Store']
+      - name: outlet_age
+
+  - name: stg_sales
+    description: "Staging das vendas por item e ponto de venda"
+    columns:
+      - name: item_identifier
+        tests: [not_null]
+      - name: outlet_identifier
+        tests: [not_null]
+      - name: item_outlet_sales
+        tests: [not_null]
