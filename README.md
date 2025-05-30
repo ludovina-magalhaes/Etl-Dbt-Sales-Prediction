@@ -8,9 +8,9 @@ Este projeto tem como objetivo construir um pipeline moderno de dados utilizando
 
 | Camada | Ferramenta |
 |--------|-------------|
-| Data Warehouse | ❄️ Snowflake |
-| Transformações SQL | 📦 dbt |
-| Análise Preditiva | 🐍 Python (Jupyter Notebook) |
+| Data Warehouse | Snowflake |
+| Transformações SQL | dbt |
+| Análise Preditiva | Python (Jupyter Notebook) |
 | Gerenciador de Dependências | Poetry |
 | Versionamento | Git + GitHub |
 
@@ -74,11 +74,5 @@ Este projeto está licenciado sob a MIT License.
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 
-
-![image](https://github.com/user-attachments/assets/dc5880f7-e185-44ce-bf53-4eff6c91c548)
-
-![image](https://github.com/user-attachments/assets/14b70f08-4b08-4e53-87c8-e8d36b64822e)
-
-![image](https://github.com/user-attachments/assets/22792e3c-cb03-4dc4-ae19-ceae9d950119)
 
 
